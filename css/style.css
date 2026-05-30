@@ -564,3 +564,274 @@ a.btn-dark { display: inline-flex; }
 .footer-links { display: flex; gap: 40px; }
 .footer-links a { transition: opacity 0.2s; }
 .footer-links a:hover { opacity: 0.7; }
+
+.footer-copyright-break { display: none; }
+
+/* ═══════════════════════════════════════
+   MOBILE — Figma Home Page - Mobile (32:7)
+═══════════════════════════════════════ */
+@media (max-width: 768px) {
+  :root {
+    --px: 20px;
+  }
+
+  /* ── Hero / Nav ── */
+  .hero-section {
+    padding: 32px var(--px) 72px;
+    gap: 94px;
+  }
+
+  .nav-bar {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .logo-img {
+    width: 144px;
+    height: auto;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-bar .btn-outline-white {
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .hero-content {
+    gap: 48px;
+  }
+
+  .hero-text-group {
+    gap: 26px;
+  }
+
+  .hero-eyebrow {
+    font-size: 20px;
+  }
+
+  .hero-headline {
+    font-size: 55px;
+    line-height: 56px;
+    letter-spacing: -1.1px;
+    max-width: none;
+  }
+
+  .hero-ctas .btn-outline-hero {
+    display: none;
+  }
+
+  /* ── Agency ── */
+  .agency-section {
+    flex-direction: column;
+    gap: 60px;
+    padding: 72px var(--px) 36px;
+  }
+
+  .agency-headline {
+    font-size: 31px;
+    line-height: 39px;
+    letter-spacing: -1.24px;
+  }
+
+  .agency-images {
+    width: 100%;
+    height: 277px;
+  }
+
+  .agency-img-back {
+    left: 15px;
+    top: 13px;
+    width: 89%;
+    max-width: 321px;
+    height: 214px;
+  }
+
+  .agency-img-front {
+    width: 89%;
+    max-width: 321px;
+    height: 214px;
+  }
+
+  /* ── Our Work ── */
+  .work-section {
+    padding: 36px var(--px) 72px;
+  }
+
+  .work-header {
+    width: 100%;
+    padding-bottom: 44px;
+  }
+
+  .work-subtitle {
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: -1.36px;
+  }
+
+  .work-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 44px 0;
+  }
+
+  .work-item.fenchurch {
+    justify-content: flex-start;
+  }
+
+  .work-info {
+    order: 1;
+    width: 100%;
+    gap: 28px;
+  }
+
+  .work-img {
+    order: 2;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .work-name {
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: -1.6px;
+  }
+
+  /* ── Expertise ── */
+  .expertise-section {
+    padding: 72px var(--px);
+    gap: 20px;
+  }
+
+  .expertise-heading {
+    padding-bottom: 36px;
+  }
+
+  .expertise-heading h2 {
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: -1.12px;
+  }
+
+  .expertise-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px 0;
+  }
+
+  .expertise-divider {
+    display: none;
+  }
+
+  .expertise-name {
+    font-size: 40px;
+    letter-spacing: -0.8px;
+    white-space: normal;
+  }
+
+  .expertise-desc {
+    font-size: 18px;
+    max-width: none;
+  }
+
+  /* ── Testimonial ── */
+  .testimonial-section {
+    padding: 72px var(--px);
+    gap: 40px;
+  }
+
+  .testimonial-quote {
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: -1.36px;
+  }
+
+  .testimonial-avatar {
+    width: 72px;
+    height: 72px;
+  }
+
+  .testimonial-name-block {
+    gap: 12px;
+  }
+
+  .testimonial-name,
+  .testimonial-role {
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 1.2;
+  }
+
+  /* ── CTA ── */
+  .cta-section {
+    padding: 72px var(--px);
+    gap: 36px;
+  }
+
+  .cta-headline {
+    font-size: 56px;
+    line-height: 0.95;
+    letter-spacing: -1.12px;
+    max-width: none;
+  }
+
+  .btn-dark {
+    font-size: 16px;
+    padding: 11px 33px;
+    border-radius: 33px;
+    gap: 10px;
+  }
+
+  .btn-dark .btn-arrow svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    padding: 72px var(--px);
+    gap: 56px;
+  }
+
+  .footer-mid {
+    flex-direction: column;
+    gap: 56px;
+    align-items: flex-start;
+  }
+
+  .footer-tagline {
+    max-width: none;
+  }
+
+  .footer-contact-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    text-align: left;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    white-space: normal;
+  }
+
+  .footer-bottom .footer-links {
+    order: 1;
+  }
+
+  .footer-bottom > p {
+    order: 2;
+  }
+
+  .footer-copyright-break {
+    display: inline;
+  }
+}
