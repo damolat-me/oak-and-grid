@@ -10,6 +10,19 @@ a { text-decoration: none; color: inherit; }
 img { display: block; }
 button { font-family: 'Satoshi', sans-serif; font-weight: 400; cursor: pointer; border: none; background: none; }
 
+/* Preserve visual styles when using semantic heading tags */
+.hero-eyebrow,
+.hero-headline,
+.section-label,
+.work-title,
+.work-name,
+.expertise-heading h2,
+.expertise-name,
+.testimonial-label,
+.cta-headline {
+  margin: 0;
+}
+
 /* Anchor tags styled as buttons share the same base */
 a.btn-outline-white,
 a.btn-yellow,
