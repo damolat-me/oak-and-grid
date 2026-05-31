@@ -215,10 +215,9 @@ a.btn-dark { display: inline-flex; }
   font-family: 'Ogg', serif;
   font-weight: 400;
   font-size: clamp(55px, 10.75vw, 140px);
-  line-height: clamp(56px, 10.2vw, 133px);
+  line-height: clamp(56px, 11.8vw, 154px);
   color: #fff;
   letter-spacing: clamp(-1.1px, -0.21vw, -2.8px);
-  max-width: 1200px;
 }
 .hero-ctas {
   display: flex;
@@ -671,7 +670,6 @@ a.btn-dark { display: inline-flex; }
     font-size: 55px;
     line-height: 56px;
     letter-spacing: -1.1px;
-    max-width: none;
   }
 
   .hero-ctas .btn-outline-hero {
