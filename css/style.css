@@ -204,7 +204,7 @@ a.btn-dark { display: inline-flex; }
 .hero-text-group {
   display: flex;
   flex-direction: column;
-  gap: clamp(26px, 2.5vw, 32px);
+  gap: 1px;
 }
 .hero-eyebrow {
   font-size: clamp(20px, 1.85vw, 24px);
@@ -659,7 +659,7 @@ a.btn-dark { display: inline-flex; }
   }
 
   .hero-text-group {
-    gap: 26px;
+    gap: 1px;
   }
 
   .hero-eyebrow {
