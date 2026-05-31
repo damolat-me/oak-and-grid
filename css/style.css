@@ -607,6 +607,163 @@ a.btn-dark { display: inline-flex; }
 .footer-copyright-break { display: none; }
 
 /* ═══════════════════════════════════════
+   LEGAL PAGES
+═══════════════════════════════════════ */
+.legal-header {
+  background: var(--dark);
+  padding: clamp(32px, 4.6vw, 60px) var(--px);
+}
+
+.legal-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+.legal-logo-link {
+  display: block;
+  flex-shrink: 0;
+}
+
+.legal-back-link {
+  font-size: 16px;
+  color: var(--light-gray);
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.legal-back-link:hover {
+  color: #fff;
+}
+
+.legal-page {
+  padding: clamp(72px, 11vw, 120px) var(--px);
+}
+
+.legal-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.legal-title {
+  font-family: 'Ogg', serif;
+  font-weight: 400;
+  font-size: clamp(48px, 8vw, 72px);
+  line-height: 1.1;
+  letter-spacing: -1.44px;
+  color: var(--dark);
+  margin: 0 0 16px;
+}
+
+.legal-effective {
+  font-size: 16px;
+  color: var(--mid-gray);
+  margin: 0 0 56px;
+}
+
+.legal-section {
+  margin-bottom: 48px;
+}
+
+.legal-section:last-child {
+  margin-bottom: 0;
+}
+
+.legal-heading {
+  font-family: 'Ogg', serif;
+  font-weight: 400;
+  font-size: clamp(28px, 3vw, 36px);
+  letter-spacing: -0.72px;
+  color: var(--dark);
+  margin: 0 0 20px;
+}
+
+.legal-subheading {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--dark);
+  margin: 28px 0 12px;
+}
+
+.legal-content p {
+  font-size: 18px;
+  line-height: 1.65;
+  letter-spacing: -0.18px;
+  color: var(--dark);
+  margin: 0 0 16px;
+}
+
+.legal-content p:last-child {
+  margin-bottom: 0;
+}
+
+.legal-list {
+  margin: 0 0 16px;
+  padding-left: 24px;
+  font-size: 18px;
+  line-height: 1.65;
+  letter-spacing: -0.18px;
+  color: var(--dark);
+}
+
+.legal-list li {
+  margin-bottom: 8px;
+}
+
+.legal-list li:last-child {
+  margin-bottom: 0;
+}
+
+.legal-content a {
+  color: var(--dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s;
+}
+
+.legal-content a:hover {
+  opacity: 0.6;
+}
+
+.legal-table-wrap {
+  overflow-x: auto;
+  margin: 8px 0 16px;
+}
+
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.16px;
+}
+
+.legal-table th,
+.legal-table td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 0.5px solid var(--border-light);
+}
+
+.legal-table th {
+  font-weight: 500;
+  color: var(--dark);
+  background: #fafafa;
+}
+
+.legal-table td {
+  color: var(--dark);
+}
+
+.legal-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ═══════════════════════════════════════
    TABLET — hide nav links when space is tight
 ═══════════════════════════════════════ */
 @media (max-width: 1024px) {
