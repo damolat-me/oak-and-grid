@@ -2,6 +2,14 @@
    Oak & Grid — style.css
    ───────────────────────────────────────── */
 
+@font-face {
+  font-family: 'Ogg';
+  src: url('../Ogg-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -204,7 +212,7 @@ a.btn-dark { display: inline-flex; }
   color: var(--light-gray);
 }
 .hero-headline {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Ogg', serif;
   font-weight: 400;
   font-size: clamp(55px, 10.75vw, 140px);
   line-height: clamp(56px, 10.2vw, 133px);
@@ -237,8 +245,8 @@ a.btn-dark { display: inline-flex; }
   min-width: 0;
 }
 .section-label {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
+  font-family: 'Ogg', serif;
+  font-weight: 400;
   font-size: clamp(28px, 2.45vw, 32px);
   letter-spacing: -0.96px;
   color: var(--dark);
@@ -306,8 +314,8 @@ a.btn-dark { display: inline-flex; }
   text-align: center;
 }
 .work-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
+  font-family: 'Ogg', serif;
+  font-weight: 400;
   font-size: clamp(28px, 2.45vw, 32px);
   letter-spacing: -0.96px;
 }
@@ -422,7 +430,7 @@ a.btn-dark { display: inline-flex; }
   padding-bottom: clamp(36px, 5.2vw, 68px);
 }
 .expertise-heading h2 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Ogg', serif;
   font-weight: 400;
   font-size: clamp(56px, 10.75vw, 140px);
   line-height: clamp(62px, 10.2vw, 133px);
@@ -475,8 +483,8 @@ a.btn-dark { display: inline-flex; }
   gap: clamp(40px, 3vw, 40px);
 }
 .testimonial-label {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
+  font-family: 'Ogg', serif;
+  font-weight: 400;
   font-size: clamp(28px, 2.45vw, 32px);
   letter-spacing: -0.96px;
 }
@@ -531,7 +539,7 @@ a.btn-dark { display: inline-flex; }
   gap: clamp(36px, 4.3vw, 56px);
 }
 .cta-headline {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Ogg', serif;
   font-weight: 400;
   font-size: clamp(56px, 10.75vw, 140px);
   line-height: clamp(53px, 10.2vw, 133px);
